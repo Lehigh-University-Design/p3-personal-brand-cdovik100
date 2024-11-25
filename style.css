@@ -1,43 +1,63 @@
-
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    line-height: 1.6;
+    font-family: Arial, sans-serif;
 }
-nav {
-    background-color: #972517;
-    color: #fff;
-    padding: 0.5em 1em;
+
+.navbar {
+    background-color: aqua;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly; 
+
+}
+
+.landing {
+    background-image: url("./images/logedited.png");
+    background-size: cover;
+    min-height: 100vh;
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+nav {
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+    background-color: #333;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+   
 }
 
 
-</nav>
-<h1>About Us</h1>
-<p>This is the content of the About page.</p>
-</body>
-
+nav div {
+    display: flex;
+    gap: 15px; 
+}
 
 nav a {
-    color: #fff;
     text-decoration: none;
-    margin: 0 1em;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
+
 nav a:hover {
-    text-decoration: underline;
+    background-color: #575757;
 }
+
 .content {
-    padding: 2em;
+    padding: 20px;
 }
+
 footer {
-    background-color: #333;
-    color: #fff;
     text-align: center;
-    padding: 1em 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
 }
