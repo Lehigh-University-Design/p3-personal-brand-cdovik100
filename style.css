@@ -1,6 +1,9 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Gabriela", serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 /* #h1-title{
@@ -19,16 +22,22 @@ body {
 .content {
     display: flex;
     flex-direction: row;
-
-
-    padding: 20px;
+    padding: 5px;
 }
 
 #h1-me{
-    font-size: 10rem;
+    font-size: 13rem;
 }
 #h1-and{
     font-size: 5rem;
+}
+
+#h1-the{
+    font-size: 8rem;
+}
+
+#h1-hound{
+    font-size: 11rem;
 }
 
 .navbar {
@@ -36,7 +45,28 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-evenly; 
+    border-radius: 25px;
 
+}
+
+.aboutme {
+    background-image: url("./images/todscene.png");
+    background-size: cover;
+    min-height: 100vh;
+    img{
+        width: auto;
+        height: 100%;
+    }
+}
+
+.big-mama {
+    background-image: url("./images/big-mama.png");
+    background-size: cover;
+    min-height: 100vh;
+    img{
+        width: auto;
+        height: 100%;
+    }
 }
 
 .landing {
@@ -44,19 +74,20 @@ body {
     background-size: cover;
     min-height: 100vh;
     img{
-        width: 100%;
-        height: auto;
+        width: auto;
+        height: 100%;
     }
 }
+
+.navbar-list a {
+    border-radius: 25px; }
 
 nav {
     position: sticky; 
     top: 0; 
     z-index: 1000; 
-    background-color: #4d7b7c5f;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 10px 20px;
    
 }
