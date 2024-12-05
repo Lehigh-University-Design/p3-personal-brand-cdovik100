@@ -3,12 +3,10 @@ body {
     font-family: "Gabriela", serif;
     font-weight: 400;
     font-style: normal;
+    background-color: #4d7b7cd8;
 
 }
 
-/* #h1-title{
-      
-} */
 
 .font{
     font-family: "Great Vibes", cursive;
@@ -21,6 +19,7 @@ body {
 
 .content {
     display: flex;
+    flex: 1;
     flex-direction: row;
     padding: 5px;
 }
@@ -49,6 +48,18 @@ body {
 
 }
 
+
+
+.landing {
+    background-image: url("./images/logedited.png");
+    background-size: cover;
+    min-height: 100vh;
+    img{
+        width: auto;
+        height: 100%;
+    }
+}
+
 .aboutme {
     background-image: url("./images/todscene.png");
     background-size: cover;
@@ -69,8 +80,33 @@ body {
     }
 }
 
-.landing {
-    background-image: url("./images/logedited.png");
+.left-box {
+    width: 300px; 
+    height: 300px;
+    padding: 35px;
+    background-color: #4d7b7cc0; 
+    color: white;
+    position: absolute; 
+    left: 300px; 
+    top: 100px; 
+    border-radius: 25px;
+  }
+
+  .right-box {
+    width: 400px; 
+    height: 250px;
+    padding: 35px;
+    background-color: #4d7b7cc0; 
+    color: white;
+    text-align: center;
+    position: absolute; 
+    right: 200px; 
+    top: 100px; 
+    border-radius: 25px;
+  }
+
+.copper {
+    background-color: #4d7b7c;
     background-size: cover;
     min-height: 100vh;
     img{
@@ -78,6 +114,17 @@ body {
         height: 100%;
     }
 }
+
+.legacy {
+    background-color: #4d7b7c;
+    background-size: cover;
+    min-height: 100vh;
+    img{
+        width: auto;
+        height: 100%;
+    }
+}
+
 
 .navbar-list a {
     border-radius: 25px; }
@@ -112,7 +159,7 @@ nav a:hover {
 
 
 
-footer {
+.footer {
     text-align: center;
     padding: 10px;
     background-color: #4d7b7c;
